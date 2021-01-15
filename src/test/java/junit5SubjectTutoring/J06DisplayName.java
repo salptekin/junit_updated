@@ -1,4 +1,4 @@
-package junit5tutoring;
+package junit5SubjectTutoring;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
