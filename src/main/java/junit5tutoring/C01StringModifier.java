@@ -10,7 +10,7 @@ public class C01StringModifier {
 	 	Note: Naming convention for the test class is like "ClassName + Test" ==>  C01StringModifierTest     
 	*/
 	
-	//AABC==>BC, ABC==>BC, BCDE==>BCD, BCAA==>BCAA
+	//AABC==>BC, ABC==>BC, BCDE==>BCD, BCAA==>BCAA, A==>"", B==>B
 	public String truncateAInFirst2Positions(String str) {
 		
 		if (str.length() <= 2) {

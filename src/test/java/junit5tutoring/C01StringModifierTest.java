@@ -26,9 +26,8 @@ class C01StringModifierTest {
 		System.out.println("Test data is null");
 	}
 	
-
 	@ParameterizedTest
-	@CsvSource(value = {"BC, AABC", "BC, ABC", "BCDE, BCDE", "BCAA, BCAA"})
+	@CsvSource(value = {"BC, AABC", "BC, ABC", "BCDE, BCDE", "BCAA, BCAA", "\"\", \"A\"", "\"B\", \"B\""})
 	void truncateAInFirst2PositionsTests(String expected, String actual) {
 		assertEquals(expected, strToModify.truncateAInFirst2Positions(actual));
 		System.out.println("Test is executed");

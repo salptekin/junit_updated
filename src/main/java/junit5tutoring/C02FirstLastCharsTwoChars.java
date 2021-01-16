@@ -1,8 +1,9 @@
 package junit5tutoring;
 
-public class C02FirstLastChars {
+public class C02FirstLastCharsTwoChars {
 	
-	public boolean areFirstAndLastTwoCharactersTheSame(String str) {
+	//ABCD==>false, ABAB==>true, AB==>true, A==>false, ""==>false
+	public boolean areFirstAndLastTwoCharsSame(String str) {
 
 		if (str.length() <= 1) {
 			return false;
